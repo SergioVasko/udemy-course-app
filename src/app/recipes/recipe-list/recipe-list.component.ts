@@ -9,10 +9,15 @@ import { Recipe } from '../recipe.model';
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
     new Recipe(
-      'A Test Recipe',
-      'A Test Description',
+      'A Test Recipe1',
+      'A Test Description1',
       'https://www.wellplated.com/wp-content/uploads/2017/12/Hoppin-John-recipe-600x629.jpg'
-    )
+    ),
+    new Recipe(
+      'A Test Recipe2',
+      'A Test Description2',
+      'https://www.wellplated.com/wp-content/uploads/2017/12/Hoppin-John-recipe-600x629.jpg'
+    ),
   ];
 
   constructor() { }
