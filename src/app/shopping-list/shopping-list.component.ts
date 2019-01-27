@@ -10,6 +10,7 @@ export class ShoppingListComponent implements OnInit {
   ingredients: Ingredient[] = [
     new Ingredient('Apples', 5),
     new Ingredient('Tomatoes', 10),
+    new Ingredient('Plumbs', 12),
   ];
 
   constructor() { }
